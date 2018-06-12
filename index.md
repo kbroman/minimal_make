@@ -7,12 +7,12 @@ description: A minimal tutorial on GNU Make, the most important tool for reprodu
 
 I would argue that the most important tool for reproducible research
 is not [Sweave](http://www.stat.uni-muenchen.de/~leisch/Sweave/) or
-[knitr](http://yihui.name/knitr/) but
-*[GNU make](http://www.gnu.org/software/make)*.
+[knitr](https://yihui.name/knitr/) but
+*[GNU make](https://www.gnu.org/software/make)*.
 
 Consider, for example, all of the files associated with a manuscript.
-In the simplest case, I would have an [R](http://r-project.org)
-script for each figure plus a [LaTeX](http://www.latex-project.org)
+In the simplest case, I would have an [R](https://r-project.org)
+script for each figure plus a [LaTeX](https://www.latex-project.org)
 file for the main text.  And then a [BibTeX](http://www.bibtex.org)
 file for the references.
 
@@ -26,10 +26,10 @@ changed.
 
 ### A simple example
 
-[GNU make](http://www.gnu.org/software/make) makes this easy.  In your
+[GNU make](https://www.gnu.org/software/make) makes this easy.  In your
 directory for the manuscript, you create a text file called `Makefile`
 that looks something like [the following](examples/ex1/Makefile) (here using
-[pdflatex](http://www.tug.org/applications/pdftex/)).
+[pdflatex](https://www.tug.org/applications/pdftex/)).
 
     mypaper.pdf: mypaper.bib mypaper.tex Figs/fig1.pdf Figs/fig2.pdf
         pdflatex mypaper
@@ -93,14 +93,14 @@ them. But there are _a lot_ of frills you can add, to save some
 typing.
 
 Here are some of the options that I use. (See the
-[make documentation](http://www.gnu.org/software/make/manual/make.html)
+[make documentation](https://www.gnu.org/software/make/manual/make.html)
 for further details.)
 
 #### Variables
 
 If you'll be repeating the same piece of code multiple times, you
 might want to define a
-[variable](http://www.gnu.org/software/make/manual/make.html#Using-Variables).
+[variable](https://www.gnu.org/software/make/manual/make.html#Using-Variables).
 
 For example, you might want to run R with the flag `--vanilla`. You
 could then define a variable `R_OPTS`:
@@ -129,7 +129,7 @@ have R packages defined in an alternative directory).
 #### Automatic variables
 
 There are a bunch of
-[automatic variables](http://www.gnu.org/software/make/manual/make.html#Automatic-Variables)
+[automatic variables](https://www.gnu.org/software/make/manual/make.html#Automatic-Variables)
 that you can use to save yourself a lot of typing. Here are the ones
 that I use most:
 
@@ -164,7 +164,7 @@ to type it twice. The main advantage comes in the next section.
 
 If a number of files are to be built in the same way, you may want to
 use a
-[pattern rule](http://www.gnu.org/software/make/manual/make.html#Pattern-Rules).
+[pattern rule](https://www.gnu.org/software/make/manual/make.html#Pattern-Rules).
 The key idea is that you can use the symbol `%` as a wildcard, to be
 expanded to any string of text.
 
@@ -198,13 +198,13 @@ Adding all of this together, here's what our example `Makefile`
 The advantage of the added frills: less typing, and it's easier to
 extend to include additional figures. The disadvantage: it's harder
 for others who are less familiar with
-[GNU Make](http://www.gnu.org/software/make/) to understand what it's
+[GNU Make](https://www.gnu.org/software/make/) to understand what it's
 doing.
 
 ### More complicated examples
 
 There are complicated Makefiles all over the place.  Poke around
-[github](http://github.com) and study them.
+[github](https://github.com) and study them.
 
 Here are some of my own examples:
 
@@ -220,15 +220,15 @@ Here are some of my own examples:
   [pre-CC probabilities paper](http://www.genetics.org/content/190/2/403.full)
 
 - [Makefile](https://github.com/kbroman/Talk_InteractiveGraphs1/blob/master/Makefile)
-  for a [talk on interactive graphs](http://www.biostat.wisc.edu/~kbroman/talks/InteractiveGraphs/).
+  for a [talk on interactive graphs](https://www.biostat.wisc.edu/~kbroman/talks/InteractiveGraphs/).
 
 - [Makefile](https://github.com/kbroman/Talk_FunQTL/blob/master/Makefile)
-  for a [talk on QTL mapping for function-valued traits](http://www.biostat.wisc.edu/~kbroman/talks/FunQTL/).
+  for a [talk on QTL mapping for function-valued traits](https://www.biostat.wisc.edu/~kbroman/talks/FunQTL/).
 
 - [Makefile](https://github.com/kbroman/qtlcharts/blob/master/Makefile)
-  for my [R/qtlcharts](http://kbroman.org/qtlcharts) package.
+  for my [R/qtlcharts](https://kbroman.org/qtlcharts) package.
 
-And here are some examples from [Mike Bostock](http://bost.ocks.org/mike/):
+And here are some examples from [Mike Bostock](https://bost.ocks.org/mike/):
 
 - [Makefile](https://github.com/mbostock/us-rivers/blob/master/Makefile)
   for [us-rivers](https://github.com/mbostock/us-rivers)
@@ -241,7 +241,7 @@ And here are some examples from [Mike Bostock](http://bost.ocks.org/mike/):
 
 Also look at the
 [Makefile](https://github.com/yihui/knitr/blob/master/Makefile) for
-[Yihui Xie](http://yihui.name/)'s [knitr](http://yihui.name/knitr/) package for [R](http://r-project.org).
+[Yihui Xie](https://yihui.name/)'s [knitr](https://yihui.name/knitr/) package for [R](https://r-project.org).
 
 Also of interest are
 [`maker`](https://github.com/ComputationalProteomicsUnit/maker) (a
@@ -252,33 +252,33 @@ providing an R-focused version of make).
 
 ### Resources
 
-- [GNU make webpage](http://www.gnu.org/software/make)
+- [GNU make webpage](https://www.gnu.org/software/make)
 
-- [Official manual](http://www.gnu.org/software/make/manual/make.html)
+- [Official manual](https://www.gnu.org/software/make/manual/make.html)
 
 - O'Reilly
   [Managing projects with GNU make](http://oreilly.com/catalog/make3/book/)
   book (part of the [Open Books project](http://oreilly.com/openbook/))
 
-- [Software carpentry](http://software-carpentry.org/)'s [make tutorial](http://swcarpentry.github.io/make-novice/)
+- [Software carpentry](https://software-carpentry.org/)'s [make tutorial](https://swcarpentry.github.io/make-novice/)
 
 - [Mike Bostock](https://bost.ocks.org/mike/)'s &ldquo;[Why Use Make](https://bost.ocks.org/mike/make/)&rdquo;
 
 - [GNU Make for reproducible data analysis](http://zmjones.com/make.html) by [Zachary Jones](http://zmjones.com/)
 
-- [Makefiles for R/LaTeX projects](http://robjhyndman.com/hyndsight/makefiles/) by [Rob Hyndman](http://robjhyndman.com)
+- [Makefiles for R/LaTeX projects](https://robjhyndman.com/hyndsight/makefiles/) by [Rob Hyndman](https://robjhyndman.com)
 
 - [drake](https://github.com/wlandau-lilly/drake) is an R package
   providing an R-focused version of make.
 
 ---
 
-The source for this minimal tutorial is [on github](http://github.com/kbroman/minimal_make).
+The source for this minimal tutorial is [on github](https://github.com/kbroman/minimal_make).
 
-Also see my [tutorials](http://kbroman.org/pages/tutorials) on
-[git/github](http://kbroman.org/github_tutorial),
-[knitr](http://kbroman.org/knitr_knutshell),
-[R packages](http://kbroman.org/pkg_primer),
-[making a web site with GitHub Pages](http://kbroman.org/simple_site),
-[data organization](http://kbroman.org/dataorg),
-and [reproducible research](http://kbroman.org/steps2rr).
+Also see my [tutorials](https://kbroman.org/pages/tutorials) on
+[git/github](https://kbroman.org/github_tutorial),
+[knitr](https://kbroman.org/knitr_knutshell),
+[R packages](https://kbroman.org/pkg_primer),
+[making a web site with GitHub Pages](https://kbroman.org/simple_site),
+[data organization](https://kbroman.org/dataorg),
+and [reproducible research](https://kbroman.org/steps2rr).
