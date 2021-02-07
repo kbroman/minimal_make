@@ -275,7 +275,7 @@ providing an R-focused version of make).
 
 The source for this minimal tutorial is [on github](https://github.com/kbroman/minimal_make).
 
-Also see my [tutorials](https://kbroman.org/pages/tutorials) on
+Also see my [tutorials](https://kbroman.org/tutorials) on
 [git/github](https://kbroman.org/github_tutorial),
 [knitr](https://kbroman.org/knitr_knutshell),
 [R packages](https://kbroman.org/pkg_primer),
