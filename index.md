@@ -209,15 +209,15 @@ There are complicated Makefiles all over the place.  Poke around
 Here are some of my own examples:
 
 - [Makefile](https://github.com/kbroman/ailProbPaper/blob/master/Makefile)
-  for my [AIL probabilities paper](http://www.g3journal.org/content/2/2/199.long)
+  for my [AIL probabilities paper](https://doi.org/10.1534/g3.111.001818)
 
 - [Makefile](https://github.com/kbroman/phyloQTLpaper/blob/master/Makefile)
   for
-  [my phylo QTL paper](http://www.genetics.org/content/192/1/267.full)
+  [my phylo QTL paper](https://doi.org/10.1534/genetics.112.142448)
 
 - [Makefile](https://github.com/kbroman/preCCProbPaper/blob/master/Makefile)
   for my
-  [pre-CC probabilities paper](http://www.genetics.org/content/190/2/403.full)
+  [pre-CC probabilities paper](https://doi.org/10.1534/genetics.111.132647)
 
 - [Makefile](https://github.com/kbroman/Talk_InteractiveGraphs1/blob/master/Makefile)
   for a [talk on interactive graphs](https://www.biostat.wisc.edu/~kbroman/talks/InteractiveGraphs/).
