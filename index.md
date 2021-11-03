@@ -243,11 +243,8 @@ Also look at the
 [Makefile](https://github.com/yihui/knitr/blob/master/Makefile) for
 [Yihui Xie](https://yihui.name/)'s [knitr](https://yihui.name/knitr/) package for [R](https://r-project.org).
 
-Also of interest are
-[`maker`](https://github.com/ComputationalProteomicsUnit/maker) (a
-`Makefile` for R package development) and
-[drake](https://github.com/wlandau-lilly/drake) (an R package
-providing an R-focused version of make).
+Also of interest is [targets](https://kinto-b.github.io/makepipe/), a
+make-like pipeline for R.
 
 
 ### Resources
@@ -268,10 +265,10 @@ providing an R-focused version of make).
 
 - [Makefiles for R/LaTeX projects](https://robjhyndman.com/hyndsight/makefiles/) by [Rob Hyndman](https://robjhyndman.com)
 
-- [targets](https://github.com/ropensci/targets/), the successor to [drake](https://github.com/wlandau-lilly/drake), is an R package
+- [targets](https://docs.ropensci.org/targets/), the successor to [drake](https://docs.ropensci.org/drake/), is an R package
   providing an R-focused version of make.
 
-- [makepipe](https://cran.r-project.org/package=makepipe) another R package providing an R-focused version of make, more minimalistic than targets.
+- [makepipe](https://kinto-b.github.io/makepipe/) another R package providing an R-focused version of make, more minimalistic than targets.
 
 ---
 
