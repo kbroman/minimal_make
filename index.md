@@ -268,8 +268,10 @@ providing an R-focused version of make).
 
 - [Makefiles for R/LaTeX projects](https://robjhyndman.com/hyndsight/makefiles/) by [Rob Hyndman](https://robjhyndman.com)
 
-- [drake](https://github.com/wlandau-lilly/drake) is an R package
+- [targets](https://github.com/ropensci/targets/), the successor to [drake](https://github.com/wlandau-lilly/drake), is an R package
   providing an R-focused version of make.
+
+- [makepipe](https://cran.r-project.org/package=makepipe) another R package providing an R-focused version of make, more minimalistic than targets.
 
 ---
 
