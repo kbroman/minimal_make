@@ -6,7 +6,7 @@ description: A minimal tutorial on GNU Make, the most important tool for reprodu
 ---
 
 I would argue that the most important tool for reproducible research
-is not [Sweave](http://www.stat.uni-muenchen.de/~leisch/Sweave/) or
+is not [Sweave](https://en.wikipedia.org/wiki/Sweave) or
 [knitr](https://yihui.name/knitr/) but
 *[GNU make](https://www.gnu.org/software/make)*.
 
@@ -254,8 +254,8 @@ make-like pipeline for R.
 - [Official manual](https://www.gnu.org/software/make/manual/make.html)
 
 - O'Reilly
-  [Managing projects with GNU make](http://oreilly.com/catalog/make3/book/)
-  book (part of the [Open Books project](http://oreilly.com/openbook/))
+  [Managing projects with GNU make](https://oreilly.com/catalog/make3/book/)
+  book (part of the [Open Books project](https://oreilly.com/openbook/))
 
 - [Software carpentry](https://software-carpentry.org/)'s [make tutorial](https://swcarpentry.github.io/make-novice/)
 
