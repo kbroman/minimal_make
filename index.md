@@ -13,7 +13,7 @@ is not [Sweave](https://en.wikipedia.org/wiki/Sweave) or
 Consider, for example, all of the files associated with a manuscript.
 In the simplest case, I would have an [R](https://r-project.org)
 script for each figure plus a [LaTeX](https://www.latex-project.org)
-file for the main text.  And then a [BibTeX](http://www.bibtex.org)
+file for the main text.  And then a [BibTeX](https://www.bibtex.org)
 file for the references.
 
 Compiling the final PDF is a bit of work:
