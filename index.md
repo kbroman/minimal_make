@@ -75,7 +75,7 @@ Note that you still need to use the semicolon (`;`).
 
 You probably already have GNU make installed on your computer.  Type
 `make --version` in a terminal/shell to see. (On Windows,
-[go here to download make](http://gnuwin32.sourceforge.net/packages/make.htm).)
+[go here to download make](https://gnuwin32.sourceforge.net/packages/make.htm).)
 
 To use make:
 
