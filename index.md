@@ -261,8 +261,6 @@ make-like pipeline for R.
 
 - [Mike Bostock](https://bost.ocks.org/mike/)'s &ldquo;[Why Use Make](https://bost.ocks.org/mike/make/)&rdquo;
 
-- [GNU Make for reproducible data analysis](http://zmjones.com/make.html) by [Zachary Jones](http://zmjones.com/)
-
 - [Makefiles for R/LaTeX projects](https://robjhyndman.com/hyndsight/makefiles/) by [Rob Hyndman](https://robjhyndman.com)
 
 - [targets](https://docs.ropensci.org/targets/), the successor to [drake](https://docs.ropensci.org/drake/), is an R package
